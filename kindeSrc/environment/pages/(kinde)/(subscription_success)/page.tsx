@@ -11,10 +11,9 @@ const SSPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Root context={context} request={request}>
       <DefaultLayout>
-        <div>SSPage</div>
         <Widget
           heading={context.widget.content.heading}
-          description={context.widget.content.description}
+          description="Thanks for your purchase"
         />
       </DefaultLayout>
     </Root>
